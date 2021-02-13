@@ -1,1 +1,1 @@
-# external-file-sorter
+# external-sorter
