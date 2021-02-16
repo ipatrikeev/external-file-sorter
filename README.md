@@ -43,7 +43,7 @@ For more information about the algorithm see:
 ## Tuning the sorter ##
 There are 4 main parameters for the sorter app:
 * file path to sort
-* number of workers (4 by default) - the number of workers which sorts file chunks and process preliminary merging
+* number of workers (4 by default) - the number of workers which sort file chunks and process preliminary merging
 * file block size in KB (512 by default) - file chunk size for partial sorting 
 * limit for number of files used in merge phase (250 by default). If the file amount is greater than this limit, the files will be merged into temporary files before being merged into the destination one
 
